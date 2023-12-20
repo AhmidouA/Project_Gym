@@ -32,8 +32,10 @@ function App() {
       isTopOfPage={isTopOfPage}
       selectedPage={selectedPage} 
       setSelectedPage={setSelectedPage}/>
+
+      <Home setSelectedPage={setSelectedPage}/>
     </div>
-    <Home setSelectedPage={setSelectedPage}/>
+    
   )
 }
 
