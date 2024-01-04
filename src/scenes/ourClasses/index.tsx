@@ -16,7 +16,7 @@ const classes: Array<ClassType> = [
     {
       name: "Weight Training Classes",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Experience the power of strength and resilience in our Weight Training Classes. Designed for both beginners and fitness enthusiasts, these classes focus on building muscle, enhancing endurance, and sculpting your body. Unleash your potential and transform your physique with our expert guidance.",
       image: image1,
     },
     {
@@ -26,13 +26,13 @@ const classes: Array<ClassType> = [
     {
       name: "Ab Core Classes",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Define your core strength and achieve a sculpted midsection with our Ab Core Classes. These sessions are crafted to target your abdominal muscles, improve stability, and foster overall core strength. Elevate your fitness journey with dynamic workouts that help you attain a strong and toned core.",
       image: image3,
     },
     {
       name: "Adventure Classes",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Embark on a fitness journey like never before with our Adventure Classes. From adrenaline-pumping activities to unique challenges, these sessions bring excitement to your workouts. Discover a new level of fitness as you engage in adventurous exercises that keep you motivated and energized.",
       image: image4,
     },
     {
@@ -42,7 +42,7 @@ const classes: Array<ClassType> = [
     {
       name: "Training Classes",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Experience a transformative fitness journey with our Training Classes. Led by seasoned trainers, these sessions provide personalized guidance to help you achieve your fitness goals. Whether you're a beginner or an advanced enthusiast, our Training Classes cater to all levels, ensuring a well-rounded and effective workout regimen.",
       image: image6,
     },
   ];
@@ -71,10 +71,9 @@ const OurClasses = ({setSelectedPage}: Props) => {
               <div className="md:w-3/5">
                 <Htext>OUR CLASSES</Htext>
                 <p className="py-5">
-                  Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                  tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                  facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                  enim mattis odio in risus nunc.
+                Embark on a fitness journey with our diverse classes, each crafted to enhance your well-being. 
+                From weight training to yoga, our offerings cater to various interests and fitness levels. 
+                Join us and discover the perfect class to elevate your fitness experience
                 </p>
               </div>
             </motion.div>   

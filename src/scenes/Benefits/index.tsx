@@ -12,18 +12,25 @@ const benefits: Array<BenefitType> = [
     {
         icon: <HomeModernIcon className="h6 w-6" />,
         title: "State of the Art Facilities",
-        description :  "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+        description : 
+        "Explore cutting-edge facilities designed to push the boundaries of innovation. State-of-the-art technologies that transform your experience and redefine the future of comfort and performance."
 
     }, 
     {
         icon: <UserGroupIcon className="h-6 w-6" />,
         title: "100's of Diverse Classes",
-        description: "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+        description: "Discover a myriad of diverse classes, offering options tailored to all levels and preferences. A comprehensive selection designed to meet your needs and enhance your fitness journey."
     }, 
     {
         icon: <AcademicCapIcon className="h-6 w-6" />,
         title: "Expert and Pro Trainers",
-        description: "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+        description: "Receive expert guidance and benefit from professional coaching from our team of seasoned trainers. An exceptional learning experience to guide you towards achieving your fitness goals."
+
+
+
+
+
+
     }
 ];
 
@@ -112,18 +119,16 @@ const Benefits = ({setSelectedPage}: Props) => {
                     {/* Description */}
                     <div>
                         <p className="my-5">
-                            Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                            egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                            fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                            nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                            tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                            Felis orci diam odio.
+                        Discover state-of-the-art facilities designed to push the boundaries of innovation. 
+                        Our cutting-edge technologies redefine your fitness experience, shaping the future of comfort 
+                        and performance. Explore a diverse range of classes, catering to all levels and preferences. 
+                        Our comprehensive selection is tailored to meet your needs and elevate your fitness journey. 
+                        Receive expert guidance and professional coaching from our team of seasoned trainers, 
+                        ensuring an exceptional learning experience to help you achieve your fitness goals
                         </p>
                             <p className="mb-5">
-                                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                                enim mattis odio in risus nunc.
+                            Experience innovation in fitness with advanced facilities and diverse class options. 
+                            Elevate your fitness journey with expert guidance from our seasoned trainers
                             </p>
                     </div>
 

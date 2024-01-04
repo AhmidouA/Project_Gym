@@ -44,9 +44,8 @@ function ContactUs({setSelectedPage}: Props) {
             <span className='text-primary-500'>JOIN NOW</span> TO GO IN SHAPE
           </Htext>
           <p className='my-5'>
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+          Embark on your fitness journey now! Join our community and unlock a world of health, vitality, and personal achievement.
+          Your path to a healthier and stronger you begins with a simple form – join now!
           </p>
         </motion.div>
 
